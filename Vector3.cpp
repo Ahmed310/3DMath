@@ -5,8 +5,15 @@
 
 
 
-const Vector3 kZeroVector = Vector3(0.0f, 0.0f, 0.0f);
 
+extern const Vector3 UP(0, 1, 0);
+extern const Vector3 DOWN(0, -1, 0);
+extern const Vector3 LEFT(-1, 0, 0);
+extern const Vector3 RIGHT(1, 0, 0);
+extern const Vector3 FORWARD(0, 0, 1);
+extern const Vector3 BACK(0, 0, -1);
+extern const Vector3 ONE(1, 1, 1);
+extern const Vector3 ZERO(0, 0, 0);
 
 Vector3::Vector3()
 {

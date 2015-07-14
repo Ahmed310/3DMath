@@ -43,9 +43,17 @@ public:
 // Global variables
 //
 /////////////////////////////////////////////////////////////////////////////
-// We provide a global zero vector constant
-extern const Vector3 kZeroVector;
 
+//  global constant vectors which are commonly used (forward declaration )
+
+extern const Vector3 UP;
+extern const Vector3 DOWN;
+extern const Vector3 LEFT;
+extern const Vector3 RIGHT;
+extern const Vector3 FORWARD;
+extern const Vector3 BACK;
+extern const Vector3 ONE;
+extern const Vector3 ZERO;
 
 /////////////////////////////////////////////////////////////////////////////
 //
